@@ -6,9 +6,10 @@ This project focuses on detecting fraudulent credit card transactions using Mach
 The system analyzes transaction patterns and predicts whether a transaction is Fraud or Safe along with Risk Level.
 
 This project simulates real-world fraud detection systems used by companies like
-Visa,
-Mastercard and
-PayPal.
+	•	Visa
+	•	Mastercard
+	•	PayPal
+
 
  ## Project Features
 	•	Fraud detection using Machine Learning
@@ -24,30 +25,30 @@ PayPal.
 
 **Dataset**: Credit Card Fraud Detection Dataset
 
-**Dataset Details:**
-	•	284,807 transactions
-	•	492 fraud transactions
+**Dataset Details:** <br>
+	•	284,807 transactions <br>
+	•	492 fraud transactions<br>
 	•	Highly imbalanced dataset
 
-**Features:**
-	•	Time
-	•	V1–V28 (PCA features)
-	•	Amount
+**Features:**<br>
+	•	Time<br>
+	•	V1–V28 (PCA features)<br>
+	•	Amount<br>
 	•	Class (Target)
 
-**Class:**
-	•	0 → Safe
+**Class:**<br>
+	•	0 → Safe<br>
 	•	1 → Fraud
 
-  **Technologies Used**
-	•	Python
-	•	Pandas
-	•	NumPy
-	•	Scikit-learn
-	•	XGBoost
-	•	Flask
-	•	Matplotlib
-	•	Joblib
+  **Technologies Used**<br>
+	•	Python<br>
+	•	Pandas<br>
+	•	NumPy<br>
+	•	Scikit-learn<br>
+	•	XGBoost<br>
+	•	Flask<br>
+	•	Matplotlib<br>
+	•	Joblib<br>
 
   ## Project Structure
   
