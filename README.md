@@ -5,9 +5,9 @@
 This project focuses on detecting fraudulent credit card transactions using Machine Learning.
 The system analyzes transaction patterns and predicts whether a transaction is Fraud or Safe along with Risk Level.
 
-This project simulates real-world fraud detection systems used by companies like
-	•	Visa
-	•	Mastercard
+This project simulates real-world fraud detection systems used by companies like<br>
+	•	Visa<br>
+	•	Mastercard<br>
 	•	PayPal
 
 
