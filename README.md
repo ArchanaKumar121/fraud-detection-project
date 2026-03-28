@@ -52,21 +52,21 @@ This project simulates real-world fraud detection systems used by companies like
 
   ## Project Structure
   
-  fraud-detection-project
-│
-├── train.py
-├── app.py
-├── fraud_model.pkl
-├── scaler.pkl
-├── threshold.pkl
-├── sample_fraud.json
-└── README.md
+  fraud-detection-project<br>
+│<br>
+├── train.py<br>
+├── app.py<br>
+├── fraud_model.pkl<br>
+├── scaler.pkl<br>
+├── threshold.pkl<br>
+├── sample_fraud.json<br>
+└── README.md<br>
 
 ## Machine Learning Models Used
 
-**Models Compared:**
-	•	Logistic Regression
-	•	Random Forest
+**Models Compared:**<br>
+	•	Logistic Regression<br>
+	•	Random Forest<br>
 	•	XGBoost
 
 **Final Model Selected:**
@@ -91,15 +91,15 @@ F1 Score: 0.84
 ## Risk Level Classification
 Risk levels based on fraud probability:
 
-Probability < 0.02
-Risk Level = Low
-Probability 0.02 - 0.1
-Risk Level = MEDIUM
-Probability> 0.1
-Risk Level = HIGH
-Example Output:
-Prediction: Fraud
-Probability: 0.99
+Probability < 0.02<br>
+Risk Level = Low<br>
+Probability 0.02 - 0.1<br>
+Risk Level = MEDIUM<br>
+Probability> 0.1<br>
+Risk Level = HIGH<br>
+Example Output:<br>
+Prediction: Fraud<br>
+Probability: 0.99<br>
 Risk Level: HIGH
 
 ## API Usage
@@ -114,18 +114,18 @@ curl -X POST http://127.0.0.1:5000/predict \
 
 ## Example Output
 
-**Fraud Example**
-{
- "prediction": "Fraud",
- "probability": 0.99,
- "risk_level": "HIGH"
+**Fraud Example**<br>
+{<br>
+ "prediction": "Fraud",<br>
+ "probability": 0.99,<br>
+ "risk_level": "HIGH"<br>
 }
 
-**Safe Example**
-{
- "prediction": "Safe",
- "probability": 0.00008,
- "risk_level": "LOW"
+**Safe Example**<br>
+{<br>
+ "prediction": "Safe",<br>
+ "probability": 0.00008,<br>
+ "risk_level": "LOW"<br>
 }
 
 ## Challenges Faced
@@ -139,9 +139,9 @@ curl -X POST http://127.0.0.1:5000/predict \
 
 Dataset uses PCA transformed features.
 
-Because of this:
-	•	Random values do not match fraud patterns
-	•	Model predicts Safe
+Because of this: <br>
+	•	Random values do not match fraud patterns<br>
+	•	Model predicts Safe<br>
 
 This is expected behavior in fraud detection systems.
 
@@ -161,16 +161,16 @@ This is expected behavior in fraud detection systems.
 
 ## Conclusion
 
-This project builds a Credit Card Fraud Detection System using Machine Learning.
+This project builds a Credit Card Fraud Detection System using Machine Learning.<br>
 
-The system:
-	•	Detects fraud
-	•	Provides probability
-	•	Assigns risk level
+The system:<br>
+	•	Detects fraud<br>
+	•	Provides probability<br>
+	•	Assigns risk level<br>
 
 This can be extended into a real-world fraud detection platform.
 
 ## Author
 
-**Archana Kumar**
+**Archana Kumar**<br>
 **Major Project — Credit Card Fraud Detection**
