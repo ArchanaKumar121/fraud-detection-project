@@ -20,26 +20,26 @@ PayPal.
 	•	Confusion matrix visualization
 	•	Real-world fraud detection pipeline
 
-Dataset Used
+## Dataset Used
 
-Dataset: Credit Card Fraud Detection Dataset
+**Dataset**: Credit Card Fraud Detection Dataset
 
-Dataset Details:
+**Dataset Details:**
 	•	284,807 transactions
 	•	492 fraud transactions
 	•	Highly imbalanced dataset
 
-Features:
+**Features:**
 	•	Time
 	•	V1–V28 (PCA features)
 	•	Amount
 	•	Class (Target)
 
-Class:
+**Class:**
 	•	0 → Safe
 	•	1 → Fraud
 
-  Technologies Used
+  **Technologies Used**
 	•	Python
 	•	Pandas
 	•	NumPy
@@ -49,7 +49,7 @@ Class:
 	•	Matplotlib
 	•	Joblib
 
-  Project Structure
+  ## Project Structure
   
   fraud-detection-project
 │
@@ -61,33 +61,33 @@ Class:
 ├── sample_fraud.json
 └── README.md
 
-Machine Learning Models Used
+## Machine Learning Models Used
 
-Models Compared:
+**Models Compared:**
 	•	Logistic Regression
 	•	Random Forest
 	•	XGBoost
 
-Final Model Selected:
+**Final Model Selected:**
 
 XGBoost — Best performance
 
-Model Performance
+## Model Performance
 
-Final Results:
+**Final Results:**
 
 Accuracy: 99.94%
 Precision: 0.87
 Recall: 0.82
 F1 Score: 0.84
 
-Confusion Matrix:
+## Confusion Matrix:
 	•	True Safe → 56852
 	•	True Fraud → 80
 	•	False Positive → 12
 	•	False Negative → 18
 
-Risk Level Classification
+## Risk Level Classification
 Risk levels based on fraud probability:
 
 Probability < 0.02
@@ -101,40 +101,40 @@ Prediction: Fraud
 Probability: 0.99
 Risk Level: HIGH
 
-API Usage
+## API Usage
 
-Run backend server:
+**Run backend server:**
 python3 app.py
 
-Test API:
+**Test API:**
 curl -X POST http://127.0.0.1:5000/predict \
 -H "Content-Type: application/json" \
 -d '{"features":[values]}'
 
-Example Output
+## Example Output
 
-Fraud Example
+**Fraud Example**
 {
  "prediction": "Fraud",
  "probability": 0.99,
  "risk_level": "HIGH"
 }
 
-Safe Example
+**Safe Example**
 {
  "prediction": "Safe",
  "probability": 0.00008,
  "risk_level": "LOW"
 }
 
-Challenges Faced
+## Challenges Faced
 	•	Imbalanced dataset
 	•	PCA feature interpretation
 	•	Threshold tuning
 	•	Model selection
 	•	Backend integration
 
-  Why Custom Inputs Show Safe
+## Why Custom Inputs Show Safe
 
 Dataset uses PCA transformed features.
 
@@ -144,7 +144,7 @@ Because of this:
 
 This is expected behavior in fraud detection systems.
 
-Future Improvements
+## Future Improvements
 	•	Frontend Dashboard
 	•	Real-time fraud detection
 	•	Explainable AI
@@ -152,13 +152,13 @@ Future Improvements
 	•	Alert system
 	•	Mobile integration
 
-  Intended End Users
+## Intended End Users
 	•	Banks
 	•	Payment gateways
 	•	E-commerce platforms
 	•	Fraud monitoring teams
 
-  Conclusion
+## Conclusion
 
 This project builds a Credit Card Fraud Detection System using Machine Learning.
 
@@ -169,7 +169,7 @@ The system:
 
 This can be extended into a real-world fraud detection platform.
 
-Author,
+## Author
 
-Archana Kumar
-Major Project — Credit Card Fraud Detection
+**Archana Kumar**
+**Major Project — Credit Card Fraud Detection**
