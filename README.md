@@ -10,7 +10,7 @@ Visa,
 Mastercard and
 PayPal.
 
-Project Features
+ ## Project Features
 	•	Fraud detection using Machine Learning
 	•	Model comparison (Logistic Regression, Random Forest, XGBoost)
 	•	Imbalanced dataset handling
